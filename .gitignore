@@ -1,0 +1,6 @@
+frontend/node_modules/
+frontend/dist/
+backend/__pycache__/
+backend/*.pyc
+backend/*.txt
+frontend/public/*.mov
