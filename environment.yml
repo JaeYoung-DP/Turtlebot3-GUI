@@ -1,4 +1,4 @@
-name: slui
+name: Turtlebot_GUI
 channels:
   - conda-forge
 dependencies:
