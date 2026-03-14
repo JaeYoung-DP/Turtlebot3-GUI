@@ -74,7 +74,7 @@ setup.bat
 
 `setup.bat`가 하는 일:
 
-1. `environment.yml` 기준으로 `slui` conda 환경 생성 또는 업데이트
+1. `environment.yml` 기준으로 `Turtlebot_GUI` conda 환경 생성 또는 업데이트
 2. `backend/requirements.txt` 기반 Python 패키지 설치
 3. conda 환경 안에 Node.js 설치
 4. `frontend/`에서 `npm install` 실행
@@ -95,7 +95,7 @@ setup.bat
 ### 백엔드 실행
 
 ```bash
-conda activate slui
+conda activate Turtlebot_GUI
 cd 자신의 경로/GUI/backend
 uvicorn main:app --reload --port 8000
 ```
@@ -109,7 +109,7 @@ backend\start.bat
 ### 프론트엔드 실행
 
 ```bash
-conda activate slui
+conda activate Turtlebot_GUI
 cd frontend
 npm run dev
 ```
